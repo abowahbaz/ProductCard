@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Fraunces';
+    src: url(fraunces.ttf);
+}
+
+@font-face {
+    font-family: 'Fraunces Bold';
+    src: url(fraunces-bold.ttf);
+}
+
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(Montserrat-Regular.ttf);
+}
+/*Web Font Declaration*/
+
+*{
+    font-family:'Montserrat-Regular' ;
+
+margin: 0;
+padding: 0;
+}
+
+
+body{
+background-color:hsl(30, 38%, 92%);
+
+}
+
+
+#cardbody{
+    background-color: rgb(255, 255, 255);
+    width:580px;
+    border-radius: 10px;
+    height:477px;
+    margin-top: 15px;
+  /*   transform: scale(80%); */
+justify-content: center;
+margin-left: 30%;
+}
+
+h1{font-family: 'Fraunces Bold';
+margin-left: 320px ;
+top: 80px;
+width: 250px;
+position: absolute;}
+
+.h6{color : hsl(21, 12%, 48%);
+margin-left:320px ;
+margin-bottom: -80px;
+margin-top: 15px;
+letter-spacing: 4px;
+font-family: 'Montserrat-Regular';
+}
+
+#buybutton{font-family: 'Montserrat-Bold';
+background-color: #3b8167;
+color: white;
+width: 250px;
+border-radius: 10px;
+border: none;
+height: 50px;
+position: absolute;
+margin-left: 310px;
+top:420px;
+
+}
+
+
+
+#buybutton:active{
+    background-color: hwb(159 23% 60%);
+}
+
+#productimage{
+    border-radius: 10px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+  margin-left: -12px;
+  height: 477px;
+  margin-top: -27px;
+}
+
+.itemdesc{
+width:260px;
+position: relative;
+margin-left:300px;
+bottom: 250px;
+
+
+
+}
+
+
+.price{
+color:#3b8167;
+font-family: 'Fraunces Bold';
+font-size: 30px;
+margin-left:310px;
+top:80px;
+position: absolute;
+margin-top: 280px;
+}
+
+.oldprc{
+position: absolute;
+font-size: 20px;
+margin-left: 440px;
+top:370px;
+
+
+
+}
+
+#productimage2{
+    visibility: hidden;
+    position: absolute;
+}
